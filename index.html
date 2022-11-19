@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Harry Potter</title>
+    <h1>JavaScript</h1>
 </head>
 
 <body>
@@ -40,8 +41,8 @@
 
     function listar(casa) {
         var i;
-        var divcasa = document.getElementById('listarAlunos');
-        var conteudo = "table class='table'>";
+        var divcasa = document.getElementById('listaralunos');
+        var conteudo = "<table class='table'>";
         conteudo += "<tr><th>Nome</th><th>Animal</th><th>Local</th></tr>";
         for (i = 0; i < alunos.length; i++) {
             if (alunos[i].casa == casa) {
